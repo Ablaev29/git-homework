@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    width: 280px;
+}
+
+.text2 {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.image {
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 6px;
+}
